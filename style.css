@@ -2,10 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+ /*font-family: 'Roboto', sans-serif;*/
+font-family: 'Ubuntu', sans-serif;
 }
 
 img{
-	width: 350px;
+	width: 400px;
 	height: auto;
 }
 .section-1{
@@ -31,6 +33,9 @@ h1{
   color: #E5E7EB;
   font-size: 18px;
   padding: 10px;
+}
+.navbar a:hover{
+  color: #e5e7eb;
 }
 .main-page{
   display: flex;
@@ -99,6 +104,7 @@ button{
 .description{
   font-size: 18px;
   text-align: center;
+  font-weight: 200;
 }
 .section-3{
 display: flex;
@@ -114,7 +120,7 @@ blockquote{
   font-size: 36px;
   font-style: italic;
   color: #1F2937;
-  background-color: red;
+  font-weight: 200;
 }
 .section-4{
 display: flex;
