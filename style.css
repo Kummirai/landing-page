@@ -191,13 +191,15 @@ span{
   }
   .navbar{
     margin-bottom: 10px;
+    border: 1px solid white;
+    padding: 20px;
   }
   .section-1{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 650px;
+    min-height: 670px;
     width: 100%;
   }
   .main-page{
